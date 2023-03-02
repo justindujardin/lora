@@ -596,7 +596,7 @@ def perform_tuning(
                 scheduler,
                 train_inpainting=train_inpainting,
                 t_mutliplier=0.8,
-                mixed_precision=True,
+                mixed_precision=False,
                 mask_temperature=mask_temperature,
                 cached_latents=cached_latents,
             )
